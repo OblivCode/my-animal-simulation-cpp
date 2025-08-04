@@ -1,0 +1,35 @@
+# Compiled executable
+simulation
+
+# Object files
+*.o
+*.obj
+
+# VS Code settings
+.vscode/
+
+# Build directories
+build/
+debug/
+release/
+
+# Temporary files
+*.tmp
+*.temp
+*~
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Core dumps
+core
+
+# Static libraries
+*.a
+*.lib
+
+# Shared libraries
+*.so
+*.dylib
+*.dll
