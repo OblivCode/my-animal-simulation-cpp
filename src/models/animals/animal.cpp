@@ -25,6 +25,7 @@ Animal::Animal(int start_x, int start_y, string animal_name) {
     position = make_tuple(start_x, start_y);
     name = animal_name;
     age = 0; // Default starting age
-
+    hunger = 100; // Start with a full stomach
+    scent_range = 1; // Default to immediate bucket only
     std::cout << "A " << name <<" has been birthed at position (" << start_x << ", " << start_y << ")." << std::endl;
 }
